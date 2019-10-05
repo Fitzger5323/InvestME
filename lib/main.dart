@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/screens/login.dart';
+import 'package:flutter_app/screens/newEntry.dart';
+
 
 void main() => runApp(InvestMe());
 
@@ -13,7 +15,7 @@ class InvestMe extends StatelessWidget {
         // Green to match the investMe Color Scheme
         primarySwatch: Colors.lightGreen,
       ),
-      home: MyHomePage(title: 'Login'),
+      home: NewEntryPage(title: 'Login'),
     );
   }
 }
